@@ -1,12 +1,15 @@
 # Advanced-Machine-learning
 
-imagenet_dgl.py
+**imagenet_dgl.py**
 
 To run end to end code:
 
 python imagenet.py IMAGENET_DIR --arch resnet152 --half --dynamic-loss-scale -j THREADS
 
-cifar_buffer.py
+It takes dataset, trains it performs parallel processing of the layers and gives output for the testing data as well.
+
+
+**cifar_buffer.py**
 
 It contains the evaluation of asynchronous version of Decoupled greedy algorithm.
 
