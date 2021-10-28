@@ -1,5 +1,8 @@
-# Advanced-Machine-learning
+Pooja Yadav
 
+Decoupled Greedy Learning of CNNs
+ 
+Implemented the second method by changing the dataset of the project 
 **imagenet_dgl.py**
 
 To run end to end code:
