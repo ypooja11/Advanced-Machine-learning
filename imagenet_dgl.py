@@ -7,7 +7,7 @@ import torch
 import torch.optim as optim
 import torch._utils
 from functools import partial
-import itertools
+import dataframes
 try:
     torch._utils._rebuild_tensor_v2
 except AttributeError:
@@ -41,7 +41,7 @@ model_names = sorted(name for name in models.__dict__
 from random import randint
 import datetime
 import torch.nn.functional as F
-parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
+parser = argparse.ArgumentParser(description='PyTorch MNIST Training')
 parser.add_argument('data', metavar='DIR',
                     help='path to dataset')
 parser.add_argument('--arch', '-a', metavar='ARCH', default='vgg_19',
